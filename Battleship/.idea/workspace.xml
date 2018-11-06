@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84e24179-be60-49a6-abfc-07e993c7960b" name="Default Changelist" comment="">
+    <list default="true" id="77da5f8a-79ec-44d2-b005-9c56f78a16ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Batleship/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Batleship/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Batleship/out/production/Batleship/learnProgramming/Batleship.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Batleship/out/production/Batleship/learnProgramming/Batleship.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hangman/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UsingArrays/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArrays/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -12,55 +15,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="607915770">
+    <session id="1814096126">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="994" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="994" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/learnProgramming/Batleship.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Battleship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="124">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="method#displayBoard#0;class#Batleship#0" />
-                <element signature="method#resetboard#0;class#Batleship#0" />
-                <element signature="method#displayMenu#0;class#Batleship#0" />
-                <element signature="method#getMenuInput#0;class#Batleship#0" />
-                <element signature="method#getRow#0;class#Batleship#0" />
-                <element signature="method#getColumn#0;class#Batleship#0" />
-                <element signature="method#fireShot#0;class#Batleship#0" />
-                <element signature="method#shotValid#0;class#Batleship#0" />
+                <element signature="e#0#980#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Grid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="583">
+              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
             </state>
           </provider>
         </entry>
@@ -80,14 +86,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/learnProgramming/Batleship.java" />
+        <option value="$PROJECT_DIR$/src/Battleship.java" />
+        <option value="$PROJECT_DIR$/src/Grid.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="386" />
-    <option name="y" value="6" />
-    <option name="width" value="1216" />
+    <option name="x" value="620" />
+    <option name="y" value="8" />
+    <option name="width" value="975" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -97,30 +104,11 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Batleship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Batleship" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Batleship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Batleship" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541503009021" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541512755618" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hangman" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -138,22 +126,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Batleship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learnProgramming.Batleship" />
-      <module name="Batleship" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learnProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Battleship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Battleship" />
+      <module name="Battleship" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Batleship" />
+        <item itemvalue="Application.Battleship" />
       </list>
     </recent_temporary>
   </component>
@@ -162,19 +144,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="84e24179-be60-49a6-abfc-07e993c7960b" name="Default Changelist" comment="" />
-      <created>1540898984108</created>
+      <changelist id="77da5f8a-79ec-44d2-b005-9c56f78a16ef" name="Default Changelist" comment="" />
+      <created>1541400951220</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540898984108</updated>
+      <updated>1541400951220</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="386" y="6" width="1216" height="867" extended-state="0" />
+    <frame x="620" y="8" width="975" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2586505" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32265717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -183,7 +165,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287858" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33015007" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -191,7 +173,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32469305" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -201,25 +183,53 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32265717" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33015007" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32469305" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/learnProgramming/Batleship.java">
+    <entry file="file://$PROJECT_DIR$/src/Battleship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="124">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="method#displayBoard#0;class#Batleship#0" />
-            <element signature="method#resetboard#0;class#Batleship#0" />
-            <element signature="method#displayMenu#0;class#Batleship#0" />
-            <element signature="method#getMenuInput#0;class#Batleship#0" />
-            <element signature="method#getRow#0;class#Batleship#0" />
-            <element signature="method#getColumn#0;class#Batleship#0" />
-            <element signature="method#fireShot#0;class#Batleship#0" />
-            <element signature="method#shotValid#0;class#Batleship#0" />
+            <element signature="e#0#980#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Grid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
         </state>
       </provider>
     </entry>
