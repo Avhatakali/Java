@@ -33,12 +33,12 @@ class Grid {
                     {"^", "A", "A", "A", "^"},
                     {"A", "^", "A", "^", "A"},
                     {"^", "^", "A", "^", "^"},
-            }, {
-                    {"^", "^", "^", "^", "^"},
-                    {"^", "A", "A", "A", "^"},
-                    {"^", "A", "A", "A", "^"},
-                    {"^", "A", "A", "A", "^"},
-                    {"^", "^", "^", "^", "^"},
+            }, {   // 0    1    2    3    4
+                    {"^", "^", "^", "^", "^"},  // 0
+                    {"^", "A", "A", "A", "^"},  // 1
+                    {"^", "A", "A", "A", "^"},  // 2
+                    {"^", "A", "A", "A", "^"},  // 3
+                    {"^", "^", "^", "^", "^"},  // 4
             }
             };
 
@@ -97,25 +97,21 @@ class Grid {
             return "HIT";
         }
         // if the square has already been checked.
-        else return "Already tried";
+        else return "You already shot there";
     }
 
-    public boolean checkGrid() {
+    public boolean checkGrid(int row, int col) {
 		/* You must complete this method!
 		   It must search the grid  for remaining ships. It must return 'true' if there are,
 		   and 'false' if there are not. */
 
-
-        for (int i = 0; i < playerGrid.length; i++) {
-            for (int j = 0; j < playerGrid[i].length; j++) {
-
-                if (playerGrid[i][j].equals("A")) {
-                    System.out.println("You won! and in only 5 shots!");
-                } else if (playerGrid[i][j].equals("^")) {
-                    System.out.println(false);
-                }
-            }
+        if (enemyGrid[row][col] == "A") {
+            return true;
+//        } else if(enemyGrid[row][col] == "^"){
+//            return false;
+        }else {
+            return false;
         }
-        return checkGrid();
+
     }
 }

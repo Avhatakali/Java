@@ -17,23 +17,39 @@ public class Battleship {
         System.out.println("The battle begins!");
 
         int Chance = 12;
+        int shots = 0;
+
+        WHILE:
         do {
 
-            System.out.println("You have " + Chance + " shots remaining");
+            System.out.println("You have " + Chance + " shots remaining.");
             System.out.println("choose your square:");
-
-            //int player = scn.nextInt();
             String[] squares = scn.next().split("");
 
             int row = Integer.parseInt(squares[0]);
-            int cal = Integer.parseInt(squares[1]);
+            int col = Integer.parseInt(squares[1]);
 
-            System.out.println(g.fire(row, cal));
+            System.out.println(g.fire(row, col));
             g.printGrid();
-
             Chance--;
+            shots++;
 
-        } while (Chance < 13 && Chance != 0);
+            for (int i = 0; i < 5; i++) {
+                for (int j = 0; j < 5; j++) {
 
+                    if (g.checkGrid(i, j)) {
+                        continue WHILE;
+                    }
+                }
+            }
+
+            System.out.println("You won! and in only " + shots + " shots!");
+            break WHILE;
+
+        } while (Chance <= 12 && Chance != 0);
+
+        if (Chance < 1) {
+            System.out.println("You're out of ammunition! Game Over!");
+        }
     }
 }
