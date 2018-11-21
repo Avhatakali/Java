@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81c25c0b-a688-49ba-ba96-0732a2af0495" name="Default Changelist" comment="" />
+    <list default="true" id="e7973ce1-726c-4341-b2b5-1a90916ec04e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,12 +10,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-43325321">
+    <session id="-32501410">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.89" value="1" />
+          <entry key="project.open.time.98" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -30,42 +33,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="18" />
+          <entry key="java" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-986973128">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="24" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Challenge/CloudChallenge.java">
+        <entry file="file://$PROJECT_DIR$/src/leaarnProgramming/instanceOf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,23 +66,19 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Challenge/CloudChallenge.java" />
+        <option value="$PROJECT_DIR$/src/leaarnProgramming/instanceOf.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="196" />
-    <option name="y" value="18" />
-    <option name="width" value="1125" />
-    <option name="height" value="788" />
+    <option name="x" value="332" />
+    <option name="y" value="1" />
+    <option name="width" value="1010" />
+    <option name="height" value="774" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -106,19 +89,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="CloudChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CloudChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="instanceOf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instanceOf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CloudChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CloudChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="instanceOf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="instanceOf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CloudChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CloudChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Challenge" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,11 +105,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542127798318" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Battleship" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541942582975" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java/Battleship" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,12 +122,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="CloudChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Challenge.CloudChallenge" />
-      <module name="CloudChallenge" />
+    <configuration name="instanceOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leaarnProgramming.instanceOf" />
+      <module name="instanceOf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Challenge.*" />
+          <option name="PATTERN" value="leaarnProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,7 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CloudChallenge" />
+        <item itemvalue="Application.instanceOf" />
       </list>
     </recent_temporary>
   </component>
@@ -171,18 +146,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="81c25c0b-a688-49ba-ba96-0732a2af0495" name="Default Changelist" comment="" />
-      <created>1538730385911</created>
+      <changelist id="e7973ce1-726c-4341-b2b5-1a90916ec04e" name="Default Changelist" comment="" />
+      <created>1541940038923</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1538730385911</updated>
+      <updated>1541940038923</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="18" width="1125" height="788" extended-state="0" />
+    <frame x="332" y="1" width="1010" height="774" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2544601" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26526317" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -191,7 +166,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32824427" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3296875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -214,49 +189,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Challenge/CloudChallenge.java">
+    <entry file="file://$PROJECT_DIR$/src/leaarnProgramming/instanceOf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
